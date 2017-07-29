@@ -11,3 +11,4 @@ OPERATION ACHILLES--
 
 We have a mole who has begun the process of penetrating your defenses. We are sniffing every packet, we are analyzing every layer. We have the handshake. We are inside of you. We are everywhere. We will find the money. We can prove you have abused your position. It was us in the bookstore. It shall be us when your vault is penetrated. You have become arrogant and boastful. You have let your sickness overtake you. We have sacrificed much. We have more to give.
 
+We will fight for you we will not let their injustice go on any longer we will expose the truth, expect us
