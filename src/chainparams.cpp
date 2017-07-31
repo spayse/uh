@@ -52,8 +52,8 @@ public:
         pchMessageStart[1] = 0x21;
         pchMessageStart[2] = 0x19;
         pchMessageStart[3] = 0xed;
-        nDefaultPort = 55555;
-        nRPCPort = 55556;
+        nDefaultPort = 15551;
+        nRPCPort = 15552;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -165,8 +165,8 @@ public:
         pchMessageStart[2] = 0x16;
         pchMessageStart[3] = 0x19;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-        nDefaultPort = 55555;
-        nRPCPort = 55556;
+        nDefaultPort = 38881
+        nRPCPort = 38882;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
