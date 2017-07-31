@@ -328,17 +328,17 @@ qmake_all: FORCE
 make_first: release-make_first debug-make_first  FORCE
 all: release-all debug-all  FORCE
 clean: release-clean debug-clean  FORCE
-	-$(DEL_FILE) /mnt/source/src/leveldb/libleveldb.a;
+	-$(DEL_FILE) /mnt/uh/src/leveldb/libleveldb.a;
 	-$(DEL_FILE) cd
-	-$(DEL_FILE) /mnt/source/src/leveldb
+	-$(DEL_FILE) /mnt/uh/src/leveldb
 	-$(DEL_FILE) ;
 	-$(DEL_FILE) clean
 distclean: release-distclean debug-distclean  FORCE
 	-$(DEL_FILE) Makefile
-	-$(DEL_FILE) /mnt/source/GUY-qt_plugin_import.cpp .qmake.stash
+	-$(DEL_FILE) /mnt/uh/guy-qt_plugin_import.cpp .qmake.stash
 
-/mnt/source/src/leveldb/libleveldb.a: FORCE
-	cd /mnt/source/src/leveldb && CC=i686-w64-mingw32.static-gcc CXX=i686-w64-mingw32.static-g++ TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) OPT="-pipe -fno-keep-inline-dllexport -O2" libleveldb.a libmemenv.a && i686-w64-mingw32.static-ranlib /mnt/source/src/leveldb/libleveldb.a && i686-w64-mingw32.static-ranlib /mnt/source/src/leveldb/libmemenv.a
+/mnt/uh/src/leveldb/libleveldb.a: FORCE
+	cd /mnt/uh/src/leveldb && CC=i686-w64-mingw32.static-gcc CXX=i686-w64-mingw32.static-g++ TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) OPT="-pipe -fno-keep-inline-dllexport -O2" libleveldb.a libmemenv.a && i686-w64-mingw32.static-ranlib /mnt/uh/src/leveldb/libleveldb.a && i686-w64-mingw32.static-ranlib /mnt/uh/src/leveldb/libmemenv.a
 
 release-mocclean:
 	$(MAKE) -f $(MAKEFILE).Release mocclean
