@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GUY</source>
-        <translation>Om GUY</translation>
+        <source>About MMR</source>
+        <translation>Om MMR</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GUY&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GUY&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;MMR&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;MMR&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GUY developers</source>
+Copyright © 2014 The MMR developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GUY developers</translation>
+Copyright © 2014 The MMR developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your GUY addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your MMR addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dette er adressene for å motta betalinger. Du ønsker kanskje å gi ulike adresser til hver avsender så du lettere kan holde øye med hvem som betaler deg.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a GUY address</source>
-        <translation>Signer en melding for å bevise din egen GUY adresse.</translation>
+        <source>Sign a message to prove you own a MMR address</source>
+        <translation>Signer en melding for å bevise din egen MMR adresse.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified GUY address</source>
-        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk GUY adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified MMR address</source>
+        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk MMR adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>GUY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>MMR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about GUY</source>
-        <translation>Vis info om GUY</translation>
+        <source>Show information about MMR</source>
+        <translation>Vis info om MMR</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a GUY address</source>
-        <translation>Send coins til en GUY adresse</translation>
+        <source>Send coins to a MMR address</source>
+        <translation>Send coins til en MMR adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for GUY</source>
-        <translation>Endre innstillingene til GUY</translation>
+        <source>Modify configuration options for MMR</source>
+        <translation>Endre innstillingene til MMR</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>GUY</source>
-        <translation>GUY</translation>
+        <source>MMR</source>
+        <translation>MMR</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About GUY</source>
-        <translation>&amp;Om GUY</translation>
+        <source>&amp;About MMR</source>
+        <translation>&amp;Om MMR</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>GUY client</source>
-        <translation>GUY klient</translation>
+        <source>MMR client</source>
+        <translation>MMR klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to GUY network</source>
-        <translation><numerusform>%n aktiv tilkobling til GUY nettverket</numerusform><numerusform>%n aktive tilkoblinger til GUY nettverket</numerusform></translation>
+        <source>%n active connection(s) to MMR network</source>
+        <translation><numerusform>%n aktiv tilkobling til MMR nettverket</numerusform><numerusform>%n aktive tilkoblinger til MMR nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,7 +600,7 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GUY address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid MMR address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -723,7 +723,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. GUY can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. MMR can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1045,8 +1045,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GUY address.</source>
-        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig GUY adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MMR address.</source>
+        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig MMR adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1064,8 +1064,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>GUY-Qt</source>
-        <translation>GUY-Qt</translation>
+        <source>MMR-Qt</source>
+        <translation>MMR-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1137,13 +1137,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GUY after logging in to the system.</source>
-        <translation>Start GUY automatisk ved hver innlogging.</translation>
+        <source>Automatically start MMR after logging in to the system.</source>
+        <translation>Start MMR automatisk ved hver innlogging.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GUY on system login</source>
-        <translation>&amp;Start GUY ved innlogging</translation>
+        <source>&amp;Start MMR on system login</source>
+        <translation>&amp;Start MMR ved innlogging</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1152,7 +1152,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GUY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the MMR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1182,7 +1182,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the GUY network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the MMR network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1227,7 +1227,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GUY.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting MMR.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1238,7 +1238,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av GUYs.</translation>
+        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av MMRs.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1294,8 +1294,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GUY.</source>
-        <translation>Denne innstillingen vil tre i kraft etter GUY er blitt startet på nytt.</translation>
+        <source>This setting will take effect after restarting MMR.</source>
+        <translation>Denne innstillingen vil tre i kraft etter MMR er blitt startet på nytt.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1313,7 +1313,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GUY network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MMR network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1387,7 +1387,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start GUY: click-to-pay handler</source>
+        <source>Cannot start MMR: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1555,7 +1555,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GUY-Qt help message to get a list with possible GUY command-line options.</source>
+        <source>Show the MMR-Qt help message to get a list with possible MMR command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1575,12 +1575,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>GUY - Debug window</source>
+        <source>MMR - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>GUY Core</source>
+        <source>MMR Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1590,7 +1590,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GUY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the MMR debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1600,7 +1600,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the GUY RPC console.</source>
+        <source>Welcome to the MMR RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1661,7 +1661,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send GUYs</translation>
+        <translation>Send MMRs</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1781,7 +1781,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a GUY address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <source>Enter a MMR address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1881,8 +1881,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid GUY address</source>
-        <translation>ADVARSEL: Ugyldig GUY adresse</translation>
+        <source>WARNING: Invalid MMR address</source>
+        <translation>ADVARSEL: Ugyldig MMR adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1955,7 +1955,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GUY address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <source>Enter a MMR address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2016,7 +2016,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GUY address</source>
+        <source>Sign the message to prove you own this MMR address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2048,7 +2048,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GUY address</source>
+        <source>Verify the message to ensure it was signed with the specified MMR address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2059,7 +2059,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GUY address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <source>Enter a MMR address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2069,8 +2069,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GUY signature</source>
-        <translation>Skriv inn GUY signatur</translation>
+        <source>Enter MMR signature</source>
+        <translation>Skriv inn MMR signatur</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2648,8 +2648,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>GUY version</source>
-        <translation>GUY versjon</translation>
+        <source>MMR version</source>
+        <translation>MMR versjon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2658,7 +2658,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or GUYd</source>
+        <source>Send command to -server or MMRd</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2678,12 +2678,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: GUY.conf)</source>
+        <source>Specify configuration file (default: MMR.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: GUYd.pid)</source>
+        <source>Specify pid file (default: MMRd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2701,13 +2701,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=GUYrpc
+rpcuser=MMRrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MMR Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2813,7 +2813,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GUY will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MMR will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3108,7 +3108,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. GUY is shutting down.</source>
+        <source>Initialization sanity check failed. MMR is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3163,12 +3163,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GUY</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of MMR</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GUY to complete</source>
+        <source>Wallet needed to be rewritten: restart MMR to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3228,7 +3228,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. GUY is probably already running.</source>
+        <source>Unable to bind to %s on this computer. MMR is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3263,7 +3263,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. GUY is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. MMR is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -1,9 +1,9 @@
-Building GUY
+Building MMR
 
-See doc/readme-qt.rst for instructions on building GUY QT,
+See doc/readme-qt.rst for instructions on building MMR QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of GUY.
+implementation of MMR.
 
-See doc/build-*.txt for instructions on building GUYd,
+See doc/build-*.txt for instructions on building MMRd,
 the intended-for-services, no-graphical-interface, reference
-implementation of GUY.
+implementation of MMR.

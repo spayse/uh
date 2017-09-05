@@ -7,7 +7,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building GUY QT, the
+See readme-qt.rst for instructions on building MMR QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -76,9 +76,9 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-GUY
+MMR
 -------
 DOS prompt:
-cd \GUY\src
+cd \MMR\src
 mingw32-make -f makefile.mingw
-strip GUYd.exe
+strip MMRd.exe

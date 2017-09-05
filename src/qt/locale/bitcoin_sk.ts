@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GUY</source>
-        <translation>O GUY</translation>
+        <source>About MMR</source>
+        <translation>O MMR</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GUY&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;GUY&lt;/b&gt;</translation>
+        <source>&lt;b&gt;MMR&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;MMR&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GUY developers</source>
+Copyright © 2014 The MMR developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GUY developers</translation>
+Copyright © 2014 The MMR developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your GUY addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše GUY adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your MMR addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše MMR adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a GUY address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto GUY adresu</translation>
+        <source>Sign a message to prove you own a MMR address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto MMR adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified GUY address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou GUY adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified MMR address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou MMR adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>GUY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GUY sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>MMR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>MMR sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about GUY</source>
-        <translation>Zobraziť informácie o GUY</translation>
+        <source>Show information about MMR</source>
+        <translation>Zobraziť informácie o MMR</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a GUY address</source>
-        <translation>Poslať mince na GUY adresu</translation>
+        <source>Send coins to a MMR address</source>
+        <translation>Poslať mince na MMR adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for GUY</source>
-        <translation>Upraviť možnosti konfigurácie pre GUY</translation>
+        <source>Modify configuration options for MMR</source>
+        <translation>Upraviť možnosti konfigurácie pre MMR</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>GUY</source>
-        <translation>GUY</translation>
+        <source>MMR</source>
+        <translation>MMR</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About GUY</source>
-        <translation>&amp;O GUY</translation>
+        <source>&amp;About MMR</source>
+        <translation>&amp;O MMR</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>GUY client</source>
-        <translation>GUY klient</translation>
+        <source>MMR client</source>
+        <translation>MMR klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to GUY network</source>
-        <translation><numerusform>%n aktívne spojenie s GUY sieťov</numerusform><numerusform>%n aktívnych spojení s GUY sieťov</numerusform><numerusform>%n aktívnych spojení s GUY sieťou</numerusform></translation>
+        <source>%n active connection(s) to MMR network</source>
+        <translation><numerusform>%n aktívne spojenie s MMR sieťov</numerusform><numerusform>%n aktívnych spojení s MMR sieťov</numerusform><numerusform>%n aktívnych spojení s MMR sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GUY address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou GUY adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid MMR address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou MMR adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. GUY can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. GUY už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. MMR can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. MMR už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GUY address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou GUY adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid MMR address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou MMR adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>GUY-Qt</source>
-        <translation>GUY-Qt</translation>
+        <source>MMR-Qt</source>
+        <translation>MMR-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GUY after logging in to the system.</source>
-        <translation>Automaticky spustiť GUY po prihlásení sa do systému.</translation>
+        <source>Automatically start MMR after logging in to the system.</source>
+        <translation>Automaticky spustiť MMR po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GUY on system login</source>
-        <translation>&amp;Spustiť GUY pri prihlásení do systému</translation>
+        <source>&amp;Start MMR on system login</source>
+        <translation>&amp;Spustiť MMR pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1168,8 +1168,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GUY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta GUY na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the MMR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta MMR na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1198,8 +1198,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the GUY network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť k sieti GUY cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the MMR network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť k sieti MMR cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1243,8 +1243,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GUY.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní GUY.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting MMR.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní MMR.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1310,8 +1310,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GUY.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní GUY.</translation>
+        <source>This setting will take effect after restarting MMR.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní MMR.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1329,8 +1329,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GUY network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou GUY po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MMR network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou MMR po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1403,8 +1403,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start GUY: click-to-pay handler</source>
-        <translation>GUY sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start MMR: click-to-pay handler</source>
+        <translation>MMR sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1571,8 +1571,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GUY-Qt help message to get a list with possible GUY command-line options.</source>
-        <translation>Zobraziť GUY-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku GUY.</translation>
+        <source>Show the MMR-Qt help message to get a list with possible MMR command-line options.</source>
+        <translation>Zobraziť MMR-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku MMR.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1591,13 +1591,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>GUY - Debug window</source>
-        <translation>GUY - Ladiace okno</translation>
+        <source>MMR - Debug window</source>
+        <translation>MMR - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GUY Core</source>
-        <translation>Jadro GUY</translation>
+        <source>MMR Core</source>
+        <translation>Jadro MMR</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1606,8 +1606,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GUY debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte GUY súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the MMR debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte MMR súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1616,8 +1616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the GUY RPC console.</source>
-        <translation>Vitajte v konzole GUY RPC.</translation>
+        <source>Welcome to the MMR RPC console.</source>
+        <translation>Vitajte v konzole MMR RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1797,8 +1797,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a GUY address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
-        <translation>Zadajte GUY adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
+        <source>Enter a MMR address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Zadajte MMR adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1897,8 +1897,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid GUY address</source>
-        <translation>UPOZORNENIE: Neplatná GUY adresa</translation>
+        <source>WARNING: Invalid MMR address</source>
+        <translation>UPOZORNENIE: Neplatná MMR adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1971,8 +1971,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GUY address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
-        <translation>Zadajte GUY adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
+        <source>Enter a MMR address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Zadajte MMR adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
 </context>
 <context>
@@ -2032,8 +2032,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GUY address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto GUY adresu</translation>
+        <source>Sign the message to prove you own this MMR address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto MMR adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2064,8 +2064,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GUY address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou GUY adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified MMR address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou MMR adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2075,8 +2075,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GUY address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
-        <translation>Zadajte GUY adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
+        <source>Enter a MMR address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Zadajte MMR adresu (napr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2085,8 +2085,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GUY signature</source>
-        <translation>Zadajte GUY podpis</translation>
+        <source>Enter MMR signature</source>
+        <translation>Zadajte MMR podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2664,8 +2664,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>GUY version</source>
-        <translation>Verzia GUY</translation>
+        <source>MMR version</source>
+        <translation>Verzia MMR</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2674,8 +2674,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or GUYd</source>
-        <translation>Pošli príkaz na -server alebo GUYd</translation>
+        <source>Send command to -server or MMRd</source>
+        <translation>Pošli príkaz na -server alebo MMRd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2694,13 +2694,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: GUY.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: GUY.conf)</translation>
+        <source>Specify configuration file (default: MMR.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: MMR.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: GUYd.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: GUYd.pid)</translation>
+        <source>Specify pid file (default: MMRd.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: MMRd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2717,24 +2717,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=GUYrpc
+rpcuser=MMRrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GUY Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;MMR Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=GUYrpc
+rpcuser=MMRrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;GUY upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;MMR upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2839,8 +2839,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GUY upozornenie&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GUY will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny GUY nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MMR will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny MMR nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3134,8 +3134,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GUY upozornenie&quot; admin@foo
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. GUY is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. GUY sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. MMR is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. MMR sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3189,13 +3189,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GUY upozornenie&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GUY</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu GUY</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of MMR</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu MMR</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GUY to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte GUY k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart MMR to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte MMR k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3254,8 +3254,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GUY upozornenie&quot; admin@foo
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. GUY is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. GUY je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. MMR is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. MMR je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3289,8 +3289,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;GUY upozornenie&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. GUY is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. GUY je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. MMR is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. MMR je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

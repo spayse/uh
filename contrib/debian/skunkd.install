@@ -1,2 +1,2 @@
-debian/bin/GUYd usr/bin
-src/GUYd usr/lib/GUY
+debian/bin/MMRd usr/bin
+src/MMRd usr/lib/MMR

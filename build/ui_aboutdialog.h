@@ -128,12 +128,12 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About GUY", Q_NULLPTR));
-        label->setText(QApplication::translate("AboutDialog", "<b>GUY</b> version", Q_NULLPTR));
+        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About MMR", Q_NULLPTR));
+        label->setText(QApplication::translate("AboutDialog", "<b>MMR</b> version", Q_NULLPTR));
         copyrightLabel->setText(QApplication::translate("AboutDialog", "Copyright \302\251 2009-2014 The Bitcoin developers\n"
 "Copyright \302\251 2012-2014 The NovaCoin developers\n"
 "Copyright \302\251 2014-2016 The Blackcoin developers\n"
-"Copyright \302\251 2016-2017 The GUY developers", Q_NULLPTR));
+"Copyright \302\251 2016-2017 The MMR developers", Q_NULLPTR));
         label_2->setText(QApplication::translate("AboutDialog", "\n"
 "This is experimental software.\n"
 "\n"

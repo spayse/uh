@@ -471,8 +471,8 @@ public:
 
     void retranslateUi(QDialog *RPCConsole)
     {
-        RPCConsole->setWindowTitle(QApplication::translate("RPCConsole", "GUY - Debug window", Q_NULLPTR));
-        label_9->setText(QApplication::translate("RPCConsole", "GUY Core", Q_NULLPTR));
+        RPCConsole->setWindowTitle(QApplication::translate("RPCConsole", "MMR - Debug window", Q_NULLPTR));
+        label_9->setText(QApplication::translate("RPCConsole", "MMR Core", Q_NULLPTR));
         label_5->setText(QApplication::translate("RPCConsole", "Client name", Q_NULLPTR));
         clientName->setText(QApplication::translate("RPCConsole", "N/A", Q_NULLPTR));
         label_6->setText(QApplication::translate("RPCConsole", "Client version", Q_NULLPTR));
@@ -495,12 +495,12 @@ public:
         lastBlockTime->setText(QApplication::translate("RPCConsole", "N/A", Q_NULLPTR));
         labelDebugLogfile->setText(QApplication::translate("RPCConsole", "Debug log file", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        openDebugLogfileButton->setToolTip(QApplication::translate("RPCConsole", "Open the GUY debug log file from the current data directory. This can take a few seconds for large log files.", Q_NULLPTR));
+        openDebugLogfileButton->setToolTip(QApplication::translate("RPCConsole", "Open the MMR debug log file from the current data directory. This can take a few seconds for large log files.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         openDebugLogfileButton->setText(QApplication::translate("RPCConsole", "&Open", Q_NULLPTR));
         labelCLOptions->setText(QApplication::translate("RPCConsole", "Command-line options", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        showCLOptionsButton->setToolTip(QApplication::translate("RPCConsole", "Show the GUY-Qt help message to get a list with possible GUY command-line options.", Q_NULLPTR));
+        showCLOptionsButton->setToolTip(QApplication::translate("RPCConsole", "Show the MMR-Qt help message to get a list with possible MMR command-line options.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         showCLOptionsButton->setText(QApplication::translate("RPCConsole", "&Show", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab_info), QApplication::translate("RPCConsole", "&Information", Q_NULLPTR));

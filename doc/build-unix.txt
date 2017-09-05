@@ -17,10 +17,10 @@ cd src/
 cd src/leveldb
 chmod +x build_detect_platform
 make clean && make libleveldb.a libmemenv.a
-make -f makefile.unix            # Headless GUY
+make -f makefile.unix            # Headless MMR
 
-See readme-qt.rst for instructions on building GUY QT,
-the graphical GUY.
+See readme-qt.rst for instructions on building MMR QT,
+the graphical MMR.
 
 Dependencies
 ------------
@@ -75,14 +75,14 @@ Dependency Build Instructions: Gentoo
 emerge -av1 --noreplace boost openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
- cd ${GUY_DIR}/src
+ cd ${MMR_DIR}/src
  make -f makefile.unix USE_UPNP=
- strip GUYd
+ strip MMRd
 
 
 Notes
 -----
-The release is built with GCC and then "strip GUYd" to strip the debug
+The release is built with GCC and then "strip MMRd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -112,7 +112,7 @@ sudo su
 
 Security
 --------
-To help make your GUY installation more secure by making certain attacks impossible to
+To help make your MMR installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -129,7 +129,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE=1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./GUY
+    scanelf -e ./MMR
 
     The output should contain:
      TYPE
@@ -137,13 +137,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, GUY should be built with a non-executable stack
+    vulnerable buffers are found. By default, MMR should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./GUY
+    scanelf -e ./MMR
 
     the output should contain:
     STK/REL/PTL

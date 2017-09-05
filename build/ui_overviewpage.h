@@ -129,7 +129,7 @@ public:
         font1.setWeight(75);
         labelBalance->setFont(font1);
         labelBalance->setCursor(QCursor(Qt::IBeamCursor));
-        labelBalance->setText(QStringLiteral("0 GUY"));
+        labelBalance->setText(QStringLiteral("0 MMR"));
         labelBalance->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         labelBalance->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
@@ -144,7 +144,7 @@ public:
         labelStake->setObjectName(QStringLiteral("labelStake"));
         labelStake->setFont(font1);
         labelStake->setCursor(QCursor(Qt::IBeamCursor));
-        labelStake->setText(QStringLiteral("0 GUY"));
+        labelStake->setText(QStringLiteral("0 MMR"));
         labelStake->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         labelStake->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
@@ -159,7 +159,7 @@ public:
         labelUnconfirmed->setObjectName(QStringLiteral("labelUnconfirmed"));
         labelUnconfirmed->setFont(font1);
         labelUnconfirmed->setCursor(QCursor(Qt::IBeamCursor));
-        labelUnconfirmed->setText(QStringLiteral("0 GUY"));
+        labelUnconfirmed->setText(QStringLiteral("0 MMR"));
         labelUnconfirmed->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         labelUnconfirmed->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
@@ -173,7 +173,7 @@ public:
         labelImmature = new QLabel(widget);
         labelImmature->setObjectName(QStringLiteral("labelImmature"));
         labelImmature->setFont(font1);
-        labelImmature->setText(QStringLiteral("0 GUY"));
+        labelImmature->setText(QStringLiteral("0 MMR"));
         labelImmature->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         labelImmature->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
@@ -275,7 +275,7 @@ public:
         OverviewPage->setWindowTitle(QApplication::translate("OverviewPage", "Form", Q_NULLPTR));
         label_5->setText(QApplication::translate("OverviewPage", "Wallet", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelWalletStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the GUY network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
+        labelWalletStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the MMR network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
         label->setText(QApplication::translate("OverviewPage", "Spendable:", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
@@ -299,7 +299,7 @@ public:
 #endif // QT_NO_TOOLTIP
         label_4->setText(QApplication::translate("OverviewPage", "<b>Recent transactions</b>", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
-        labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the GUY network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
+        labelTransactionsStatus->setToolTip(QApplication::translate("OverviewPage", "The displayed information may be out of date. Your wallet automatically synchronizes with the MMR network after a connection is established, but this process has not completed yet.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
     } // retranslateUi
 

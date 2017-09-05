@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>GUY.icns</string>
+	<string>MMR.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>GUY-Qt</string>
+	<string>MMR-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>GUY-Qt</string>
+	<string>MMR-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.GUY.GUY-Qt</string>
+	<string>co.MMR.MMR-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.GUY.GUYPayment</string>
+            <string>co.MMR.MMRPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>GUY</string>
+              <string>MMR</string>
             </array>
           </dict>
         </array>

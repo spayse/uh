@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=GUY
-Comment=GUY P2P Cryptocurrency
-Exec=/usr/bin/GUY-qt
+Name=MMR
+Comment=MMR P2P Cryptocurrency
+Exec=/usr/bin/MMR-qt
 Terminal=false
 Type=Application
 Icon=/usr/share/pixmaps/bitcoin80.xpm
-MimeType=x-scheme-handler/GUY;
+MimeType=x-scheme-handler/MMR;
 Categories=Office;
-Name[en_US]=GUY-qt.desktop
+Name[en_US]=MMR-qt.desktop

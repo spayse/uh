@@ -22,7 +22,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "GUY cannot be compiled without assertions."
+# error "MMR cannot be compiled without assertions."
 #endif
 
 //
@@ -78,7 +78,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "GUY Signed Message:\n";
+const string strMessageMagic = "MMR Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -1001,11 +1001,11 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 
     if(pindexBest->nHeight < 2) {
         nSubsidy = 50555 * COIN;
-    } else if(pindexBest->nHeight > 2) {
+    } else if(pindexBest->nHeight >= 2) {
         nSubsidy = 555 * COIN;
-    } else if(pindexBest->nHeight > 2000 ) {
+    } else if(pindexBest->nHeight >= 2000) {
         nSubsidy = 200 * COIN;
-        } else if(pindexBest->nHeight > 19200) {
+        } else if(pindexBest->nHeight >= 19200) {
         nSubsidy = 0 * COIN;
     } else {
         nSubsidy = 0 * COIN;
@@ -1019,8 +1019,9 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 // miner's coin stake reward
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees)
 {
+ int64_t nSubsidy;
     
-          int64_t nSubsidy = 1 * COIN;
+    nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
           
    
     LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n", FormatMoney(nSubsidy), nCoinAge);
@@ -2352,7 +2353,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
             if (pblock->IsProofOfStake())
                 setStakeSeenOrphan.insert(pblock->GetProofOfStake());
 
-            // Ask this guy to fill in what we're missing
+            // Ask this MMR to fill in what we're missing
             PushGetBlocks(pfrom, pindexBest, GetOrphanRoot(hash));
             // ppcoin: getblocks may not obtain the ancestor block rejected
             // earlier by duplicate-stake check so we ask for it again directly
@@ -2750,7 +2751,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("GUY-loadblk");
+    RenameThread("MMR-loadblk");
 
     CImportingNow imp;
 

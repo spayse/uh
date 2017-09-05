@@ -1,6 +1,6 @@
 [Protocol]
-exec=GUY-qt '%u'
-protocol=GUY
+exec=MMR-qt '%u'
+protocol=MMR
 input=none
 output=none
 helper=true

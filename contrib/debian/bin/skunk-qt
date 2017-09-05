@@ -4,13 +4,13 @@ set -e
 
 umask 077
 
-basedir=~/.GUY
+basedir=~/.MMR
 dbfile="$basedir/DB_CONFIG"
-cfgfile="$basedir/GUY.conf"
+cfgfile="$basedir/MMR.conf"
 
 [ -e "$basedir" ] || mkdir "$basedir"
 
-# GUY does not clean up DB log files by default
+# MMR does not clean up DB log files by default
 [ -e "$dbfile" ] || echo 'set_flags DB_LOG_AUTOREMOVE' > "$dbfile"
 
-exec /usr/lib/GUY/GUY-qt "$@"
+exec /usr/lib/MMR/MMR-qt "$@"

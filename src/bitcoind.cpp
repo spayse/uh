@@ -50,12 +50,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("GUY version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("MMR version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  GUYd [options]                     " + "\n" +
-                  "  GUYd [options] <command> [params]  " + _("Send command to -server or GUYd") + "\n" +
-                  "  GUYd [options] help                " + _("List commands") + "\n" +
-                  "  GUYd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  MMRd [options]                     " + "\n" +
+                  "  MMRd [options] <command> [params]  " + _("Send command to -server or MMRd") + "\n" +
+                  "  MMRd [options] help                " + _("List commands") + "\n" +
+                  "  MMRd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "GUY:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "MMR:"))
                 fCommandLine = true;
 
         if (fCommandLine)

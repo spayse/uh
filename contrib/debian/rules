@@ -5,29 +5,29 @@
 #build/bitcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoin)
 
-DEB_INSTALL_EXAMPLES_GUYd += debian/examples/*
-DEB_INSTALL_MANPAGES_GUYd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_MMRd += debian/examples/*
+DEB_INSTALL_MANPAGES_MMRd += debian/manpages/*
 
 %:
 	dh --with bash-completion $@
 
 override_dh_auto_build:
-	cd src; $(MAKE) -f makefile.unix GUYd
+	cd src; $(MAKE) -f makefile.unix MMRd
 	$(MAKE)
 
 override_dh_auto_clean:
-	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f GUY-qt; fi
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f MMR-qt; fi
 	cd src; $(MAKE) -f makefile.unix clean
 
 override_dh_auto_configure:
-	qmake GUY-qt.pro USE_QRCODE=1
+	qmake MMR-qt.pro USE_QRCODE=1
 
 override_dh_auto_test:
-	cd src; $(MAKE) -f makefile.unix test_GUY
-	src/test_GUY
+	cd src; $(MAKE) -f makefile.unix test_MMR
+	src/test_MMR
 
 # Ensure wrapper is set executable
-binary-post-install/GUYd:
-	chmod +x $(cdbs_curdestdir)usr/bin/GUYd
-binary-post-install/GUY-qt:
-	chmod +x $(cdbs_curdestdir)usr/bin/GUY-qt
+binary-post-install/MMRd:
+	chmod +x $(cdbs_curdestdir)usr/bin/MMRd
+binary-post-install/MMR-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/MMR-qt
