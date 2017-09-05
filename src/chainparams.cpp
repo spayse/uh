@@ -51,9 +51,9 @@ public:
         pchMessageStart[0] = 0xcf;
         pchMessageStart[1] = 0x21;
         pchMessageStart[2] = 0x19;
-        pchMessageStart[3] = 0xed;
-        nDefaultPort = 15551;
-        nRPCPort = 15552;
+        pchMessageStart[3] = 0xd1;
+        nDefaultPort = 55432;
+        nRPCPort =55431;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -64,7 +64,7 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Hydrocarbon genesis block was created at bitcoin block 461155 with timestamp 1491764259 ";
+        const char* pszTimestamp = "MMR genesis block was created at bitcoin block 461155 with timestamp 1491764259 ";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -76,14 +76,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1501321253;
+        genesis.nTime    = 1504635257;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 1210411;
+        genesis.nNonce   = 0;
         
        
 				// uncomment to log genesis block info        
       //  start
-        if (false && genesis.GetHash() != hashGenesisBlock)
+        if (true && genesis.GetHash() != hashGenesisBlock)
                        {
                            printf("Searching for genesis block...\n");
                            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -117,16 +117,16 @@ public:
         
         
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000a7df47b399d100ac71af17ae7a654cbaf1382d9e909d7c186feda43c2ea"));
-        assert(genesis.hashMerkleRoot == uint256("0xc01016241fb4ce889df81f1a25f289dc981808465d9deb11787590521ec299e2"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0xc"));
 
         // Add seednodes below //
-          vSeeds.push_back(CDNSSeedData("Hydrocarboncoin.com",  "98.28.193.120"));
-          vSeeds.push_back(CDNSSeedData("Hydrocarboncoin.com",  "212.24.99.107"));
+          vSeeds.push_back(CDNSSeedData("Spayses Server",  "98.28.193.120"));
+          vSeeds.push_back(CDNSSeedData("Need Server",  ""));
          
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(53,11);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();

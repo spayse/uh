@@ -45,7 +45,7 @@ CBigNum bnProofOfStakeLimitV2(~uint256(0) >> 48);
 
 int nStakeMinConfirmations = 50;
 unsigned int nStakeMinAge = 6 * 60 * 60; // 6 hours
-unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
+unsigned int nModifierInterval = 100 * 60; // time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 60;
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -999,14 +999,9 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 {
     int64_t nSubsidy = 1 * COIN;
 
-    if(pindexBest->nHeight < 2) {
-        nSubsidy = 50555 * COIN;
-    } else if(pindexBest->nHeight >= 2) {
-        nSubsidy = 555 * COIN;
-    } else if(pindexBest->nHeight >= 2000) {
-        nSubsidy = 200 * COIN;
-        } else if(pindexBest->nHeight >= 19200) {
-        nSubsidy = 0 * COIN;
+    if(pindexBest->nHeight =< 2) {
+        nSubsidy = 105000000 * COIN;
+    
     } else {
         nSubsidy = 0 * COIN;
     }
